@@ -21,7 +21,8 @@ body{
 }
 
 .container {
-   width: 600px;
+    width: 550px;
+    padding: 15px 10px;
     border-radius: 35px;
     gap: 50px;
     box-shadow: -65px -45px 20px  rgba(21, 22, 22, 0.05),
@@ -73,4 +74,14 @@ body{
     position: absolute;
     top: 15px;
     right: 15px;
+}
+
+@media screen and (max-width: 600px) {
+   .container{
+    width: 350px;
+   }
+
+   .heading{
+    font-size: 3rem;
+   }
 }
